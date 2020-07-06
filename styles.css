@@ -1,0 +1,712 @@
+.pizza {
+    position: absolute;
+    top:20%;
+    left:40%;
+}
+.slice1 {
+    position: relative;
+    top:80px;
+    left:-55px;
+    width:150px;
+    height: 155px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #ECD175;
+    z-index:-1;
+    transform: rotate(153deg);
+    transform-origin: 100%;
+}
+.slice1::before { 
+    content: '';
+    position: absolute;
+    z-index: 9;
+    bottom:-11%;
+    left: 27%;
+    height: 181px;
+    width: 3px;
+    transform: rotate(22deg);
+    background-color: #000;
+}
+.crust1 { 
+    background-color: #CFAC8A;
+    width:130px;
+    height: 150px;
+    position: absolute;
+    top:-2px;
+    left:80px;
+    transform:rotate(-25deg);
+    z-index: 3;
+    clip-path: polygon(1% 48%, 4% 44%, 9% 42%, 15% 43%, 20% 43%, 24% 42%, 29% 41%, 34% 42%, 38% 43%, 43% 43%, 46% 43%, 50% 42%, 56% 41%, 60% 42%, 64% 43%, 69% 44%, 74% 41%, 78% 41%, 82% 42%, 87% 43%, 92% 44%, 99% 44%, 98% 38%, 98% 32%, 94% 30%, 90% 29%, 87% 28%, 83% 28%, 78% 27%, 73% 27%, 68% 26%, 61% 26%, 55% 26%, 49% 26%, 44% 26%, 40% 26%, 34% 27%, 29% 27%, 23% 27%, 18% 28%, 12% 29%, 6% 31%, 1% 33%, 1% 37%, 0% 41%);
+}
+.slice2 {
+    position: relative;
+    top:-133px;
+    left:11px;
+    width:148px;
+    height: 170px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #ECD175;
+    z-index:-1;
+    transform: rotate(200deg);
+    transform-origin: 100%;
+}
+.slice2::before { 
+    content: '';
+    position: absolute;
+    z-index: 9;
+    bottom:-5%;
+    left: 29%;
+    height: 189px;
+    width: 3px;
+    transform: rotate(25deg);
+    background-color: #000;
+}
+.crust2 { 
+    background-color: #CFAC8A;
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top:-8px;
+    left:180px;
+    transform:rotate(20deg);
+    z-index: 3;
+    clip-path: polygon(1% 48%, 4% 44%, 9% 42%, 15% 43%, 20% 43%, 24% 42%, 29% 41%, 34% 42%, 38% 43%, 43% 43%, 46% 43%, 50% 42%, 56% 41%, 60% 42%, 64% 43%, 69% 44%, 74% 41%, 78% 41%, 82% 42%, 87% 43%, 92% 44%, 99% 44%, 98% 38%, 98% 32%, 94% 30%, 90% 29%, 87% 28%, 83% 28%, 78% 27%, 73% 27%, 68% 26%, 61% 26%, 55% 26%, 49% 26%, 44% 26%, 40% 26%, 34% 27%, 29% 27%, 23% 27%, 18% 28%, 12% 29%, 6% 31%, 1% 33%, 1% 37%, 0% 41%);
+}
+.slice3 {
+    position: absolute;
+    top:32px;
+    left:127px;
+    width:120px;
+    height: 170px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #ECD175;
+    z-index:-1;
+    transform: rotate(243deg);
+    transform-origin: 100%;
+}
+.slice3::before { 
+    content: '';
+    position: absolute;
+    z-index: 9;
+    bottom:-5%;
+    left: 27%;
+    height: 185px;
+    width: 3px;
+    transform: rotate(17deg);
+    background-color: #000;
+}
+.crust3 { 
+    background-color: #CFAC8A;
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top:70px;
+    left:265px;
+    transform:rotate(65deg);
+    z-index: 3;
+    clip-path: polygon(1% 48%, 4% 44%, 9% 42%, 15% 43%, 20% 43%, 24% 42%, 29% 41%, 34% 42%, 38% 43%, 43% 43%, 46% 43%, 50% 42%, 56% 41%, 60% 42%, 64% 43%, 69% 44%, 74% 41%, 78% 41%, 82% 42%, 87% 43%, 92% 44%, 99% 44%, 98% 38%, 98% 32%, 94% 30%, 90% 29%, 87% 28%, 83% 28%, 78% 27%, 73% 27%, 68% 26%, 61% 26%, 55% 26%, 49% 26%, 44% 26%, 40% 26%, 34% 27%, 29% 27%, 23% 27%, 18% 28%, 12% 29%, 6% 31%, 1% 33%, 1% 37%, 0% 41%);
+}
+.slice4 {
+    position: absolute;
+    top:77px;
+    left:151px;
+    width:151px;
+    height: 165px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #ECD175;
+    z-index:-1; 
+    transform: rotate(286deg);
+    transform-origin: 100%;
+}
+.slice4::before { 
+    content: '';
+    position: absolute;
+    z-index: 9;
+    bottom:-5%;
+    left: 31%;
+    height: 207px;
+    width: 3px;
+    transform: rotate(22deg);
+    background-color: #000;
+}
+.crust4 { 
+    background-color: #CFAC8A;
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top:180px;
+    left:269px;
+    transform:rotate(110deg);
+    z-index: 3;
+    clip-path: polygon(1% 48%, 4% 44%, 9% 42%, 15% 43%, 20% 43%, 24% 42%, 29% 41%, 34% 42%, 38% 43%, 43% 43%, 46% 43%, 50% 42%, 56% 41%, 60% 42%, 64% 43%, 69% 44%, 74% 41%, 78% 41%, 82% 42%, 87% 43%, 92% 44%, 99% 44%, 98% 38%, 98% 32%, 94% 30%, 90% 29%, 87% 28%, 83% 28%, 78% 27%, 73% 27%, 68% 26%, 61% 26%, 55% 26%, 49% 26%, 44% 26%, 40% 26%, 34% 27%, 29% 27%, 23% 27%, 18% 28%, 12% 29%, 6% 31%, 1% 33%, 1% 37%, 0% 41%);
+}
+.slice5 {
+    position: absolute;
+    top:165px;
+    left:155px;
+    width:150px;
+    height: 170px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #ECD175;
+    z-index:-1;
+    transform: rotate(333deg);
+    transform-origin: 100%;
+}
+.slice5::before { 
+    content: '';
+    position: absolute;
+    z-index: 9;
+    bottom:-5%;
+    left: 28%;
+    height: 185px;
+    width: 3px;
+    transform: rotate(20deg);
+    background-color: #000;
+}
+.crust5 { 
+    background-color: #CFAC8A;
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top:270px;
+    left:190px;
+    transform:rotate(150deg);
+    z-index: 3;
+    clip-path: polygon(1% 48%, 4% 44%, 9% 42%, 15% 43%, 20% 43%, 24% 42%, 29% 41%, 34% 42%, 38% 43%, 43% 43%, 46% 43%, 50% 42%, 56% 41%, 60% 42%, 64% 43%, 69% 44%, 74% 41%, 78% 41%, 82% 42%, 87% 43%, 92% 44%, 99% 44%, 98% 38%, 98% 32%, 94% 30%, 90% 29%, 87% 28%, 83% 28%, 78% 27%, 73% 27%, 68% 26%, 61% 26%, 55% 26%, 49% 26%, 44% 26%, 40% 26%, 34% 27%, 29% 27%, 23% 27%, 18% 28%, 12% 29%, 6% 31%, 1% 33%, 1% 37%, 0% 41%);
+}
+.slice6 {
+    position: absolute;
+    top:216px;
+    left:99px;
+    width:147px;
+    height: 180px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #ECD175;
+    z-index:-1;
+    transform: rotate(375deg);
+    transform-origin: 100%;
+}
+.slice6::before { 
+    content: '';
+    position: absolute;
+    z-index: 9;
+    bottom:-5%;
+    left: 26%;
+    height: 188px;
+    width: 3px;
+    transform: rotate(23deg);
+    background-color: #000;
+}
+.crust6 { 
+    background-color: #CFAC8A;
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top:280px;
+    left:80px;
+    transform:rotate(200deg);
+    z-index: 3;
+    clip-path: polygon(1% 48%, 4% 44%, 9% 42%, 15% 43%, 20% 43%, 24% 42%, 29% 41%, 34% 42%, 38% 43%, 43% 43%, 46% 43%, 50% 42%, 56% 41%, 60% 42%, 64% 43%, 69% 44%, 74% 41%, 78% 41%, 82% 42%, 87% 43%, 92% 44%, 99% 44%, 98% 38%, 98% 32%, 94% 30%, 90% 29%, 87% 28%, 83% 28%, 78% 27%, 73% 27%, 68% 26%, 61% 26%, 55% 26%, 49% 26%, 44% 26%, 40% 26%, 34% 27%, 29% 27%, 23% 27%, 18% 28%, 12% 29%, 6% 31%, 1% 33%, 1% 37%, 0% 41%);
+}
+.slice7 {
+    position: absolute;
+    top:225px;
+    left:20px;
+    width:140px;
+    height: 170px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #ECD175;
+    z-index:-1;
+    transform: rotate(420deg);
+    transform-origin: 100%;
+}
+.slice7::before { 
+    content: '';
+    position: absolute;
+    z-index: 9;
+    bottom:-5%;
+    left: 24%;
+    height: 182px;
+    width: 3px;
+    transform: rotate(23deg);
+    background-color: #000;
+}
+.crust7 { 
+    background-color: #CFAC8A;
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top:200px;
+    left:-5px;
+    transform:rotate(245deg);
+    z-index: 3;
+    clip-path: polygon(1% 48%, 4% 44%, 9% 42%, 15% 43%, 20% 43%, 24% 42%, 29% 41%, 34% 42%, 38% 43%, 43% 43%, 46% 43%, 50% 42%, 56% 41%, 60% 42%, 64% 43%, 69% 44%, 74% 41%, 78% 41%, 82% 42%, 87% 43%, 92% 44%, 99% 44%, 98% 38%, 98% 32%, 94% 30%, 90% 29%, 87% 28%, 83% 28%, 78% 27%, 73% 27%, 68% 26%, 61% 26%, 55% 26%, 49% 26%, 44% 26%, 40% 26%, 34% 27%, 29% 27%, 23% 27%, 18% 28%, 12% 29%, 6% 31%, 1% 33%, 1% 37%, 0% 41%);
+}
+.slice8 {
+    position: absolute;
+    top:165px;
+    left:-25px;
+    width:140px;
+    height: 170px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #ECD175;
+    z-index:-1;
+    transform: rotate(465deg);
+    transform-origin: 100%;
+}
+.slice8::before { 
+    content: '';
+    position: absolute;
+    z-index: 9;
+    bottom:-5%;
+    left: 25%;
+    height: 170px;
+    width: 3px;
+    transform: rotate(25deg);
+    background-color: #000;
+}
+.crust8 { 
+    background-color: #CFAC8A;
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top:80px;
+    left:-5px;
+    transform:rotate(290deg);
+    z-index: 3;
+    clip-path: polygon(1% 48%, 4% 44%, 9% 42%, 15% 43%, 20% 43%, 24% 42%, 29% 41%, 34% 42%, 38% 43%, 43% 43%, 46% 43%, 50% 42%, 56% 41%, 60% 42%, 64% 43%, 69% 44%, 74% 41%, 78% 41%, 82% 42%, 87% 43%, 92% 44%, 99% 44%, 98% 38%, 98% 32%, 94% 30%, 90% 29%, 87% 28%, 83% 28%, 78% 27%, 73% 27%, 68% 26%, 61% 26%, 55% 26%, 49% 26%, 44% 26%, 40% 26%, 34% 27%, 29% 27%, 23% 27%, 18% 28%, 12% 29%, 6% 31%, 1% 33%, 1% 37%, 0% 41%);
+}
+.olive1{
+    height: 10px;
+    width: 10px;
+    background-color: #626262;
+    position: absolute;
+    top:50px;
+    left:230px;
+    z-index: 4;
+    border-radius: 100% 32% 100% 32% / 100% 32% 100% 32%;
+}
+.olive2{
+    height: 10px;
+    width: 10px;
+    background-color: #626262;
+    position: absolute;
+    top:170px;
+    left:211px;
+    z-index: 4;
+    border-radius: 100% 32% 100% 32% / 100% 32% 100% 32%;
+}
+.tomato1{
+    height: 20px;
+    width: 50px;
+    position: absolute;
+    top:80px;
+    left: 250px;
+    background-color: #D72E20;
+    transform: rotate(150deg);
+    border-radius: 60% 60% 20% 20% / 100% 100% 20% 20%;
+}
+.tomato1::before {
+    content: '';
+    position: absolute;
+    bottom:10%;
+    left: 10%;
+    width:15px;
+    height: 15px;
+    transform: rotate(-25deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.tomato1::after {
+    content: '';
+    position: absolute;
+    bottom:20%;
+    right: 10%;
+    width:15px;
+    height: 15px;
+    transform: rotate(25deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.onion1 {
+    height: 30px;
+    width: 10px;
+    background-color: #CCCCCE;
+    position: absolute;
+    top:80px;
+    left:220px;
+    border-radius: 0% 0% 100% 0% / 0% 0% 100% 0%;
+}
+.pepperoni1 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top:120px;
+    left:200px;
+    background-color: #BB261B;
+    border-radius: 85% 34% 100% 42% / 85% 34% 100% 42%;
+}
+.mushroom2 {
+    width: 30px;
+    height: 50px;
+    background-color: #C1A88C;
+    position: absolute;
+    top:120px;
+    left:320px;
+    clip-path: polygon(1% 49%, 5% 43%, 10% 38%, 15% 34%, 21% 31%, 27% 28%, 33% 26%, 40% 24%, 46% 23%, 53% 22%, 59% 23%, 66% 24%, 73% 25%, 78% 28%, 83% 32%, 88% 36%, 93% 40%, 97% 44%, 96% 50%, 90% 54%, 83% 57%, 75% 59%, 67% 57%, 63% 61%, 65% 68%, 68% 74%, 70% 80%, 73% 86%, 71% 93%, 65% 97%, 59% 99%, 51% 99%, 44% 99%, 38% 96%, 38% 89%, 41% 84%, 41% 77%, 42% 70%, 43% 63%, 36% 60%, 29% 59%, 22% 58%, 16% 57%, 10% 56%, 5% 53%);
+}
+.pepperoni2 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:130px;
+    left:270px;
+    background-color: #BB261B;
+    border-radius: 85% 34% 100% 42% / 85% 34% 100% 42%;
+}
+.capsicum2 {
+    width: 50px;
+    height: 30px;
+    background-color: #449228;
+    position: absolute;
+    top:162px;
+    left:230px;
+    clip-path: polygon(0% 58%, 7% 54%, 14% 51%, 20% 48%, 27% 46%, 33% 50%, 40% 53%, 46% 56%, 54% 54%, 60% 50%, 66% 47%, 73% 47%, 80% 50%, 86% 53%, 92% 55%, 97% 60%, 96% 66%, 91% 68%, 85% 66%, 79% 64%, 72% 62%, 65% 65%, 60% 68%, 54% 71%, 47% 71%, 40% 69%, 34% 67%, 27% 65%, 20% 65%, 14% 66%, 8% 67%, 2% 66%, 1% 62%);
+}
+.tomato3{
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top:200px;
+    left: 310px;
+    background-color: #D72E20;
+    transform: rotate(150deg);
+    border-radius: 60% 60% 20% 20% / 100% 100% 20% 20%;
+}
+.tomato3::before {
+    content: '';
+    position: absolute;
+    bottom:10%;
+    left: 10%;
+    width:15px;
+    height: 15px;
+    transform: rotate(-25deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.tomato3::after {
+    content: '';
+    position: absolute;
+    bottom:20%;
+    right: 10%;
+    width:15px;
+    height: 15px;
+    transform: rotate(25deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.pepperoni3 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:240px;
+    left:290px;
+    transform: rotate(60deg);
+    background-color: #BB261B;
+    border-radius: 85% 34% 100% 42% / 85% 34% 100% 42%;
+}
+.mushroom3 {
+    width: 30px;
+    height: 50px;
+    background-color: #C1A88C;
+    position: absolute;
+    top:200px;
+    left:250px;
+    clip-path: polygon(1% 49%, 5% 43%, 10% 38%, 15% 34%, 21% 31%, 27% 28%, 33% 26%, 40% 24%, 46% 23%, 53% 22%, 59% 23%, 66% 24%, 73% 25%, 78% 28%, 83% 32%, 88% 36%, 93% 40%, 97% 44%, 96% 50%, 90% 54%, 83% 57%, 75% 59%, 67% 57%, 63% 61%, 65% 68%, 68% 74%, 70% 80%, 73% 86%, 71% 93%, 65% 97%, 59% 99%, 51% 99%, 44% 99%, 38% 96%, 38% 89%, 41% 84%, 41% 77%, 42% 70%, 43% 63%, 36% 60%, 29% 59%, 22% 58%, 16% 57%, 10% 56%, 5% 53%);
+}
+.olive3{
+    height: 10px;
+    width: 10px;
+    background-color: #626262;
+    position: absolute;
+    top:210px;
+    left:290px;
+    z-index: 4;
+    border-radius: 100% 32% 100% 32% / 100% 32% 100% 32%;
+}
+.tomato4{
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top:320px;
+    left: 220px;
+    background-color: #D72E20;
+    transform: rotate(150deg);
+    border-radius: 60% 60% 20% 20% / 100% 100% 20% 20%;
+}
+.tomato4::before {
+    content: '';
+    position: absolute;
+    bottom:10%;
+    left: 10%;
+    width:15px;
+    height: 15px;
+    transform: rotate(-25deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.tomato4::after {
+    content: '';
+    position: absolute;
+    bottom:20%;
+    right: 10%;
+    width:15px;
+    height: 15px;
+    transform: rotate(25deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.mushroom4 {
+    width: 40px;
+    height: 50px;
+    background-color: #C1A88C;
+    position: absolute;
+    top:250px;
+    left:220px;
+    clip-path: polygon(1% 49%, 5% 43%, 10% 38%, 15% 34%, 21% 31%, 27% 28%, 33% 26%, 40% 24%, 46% 23%, 53% 22%, 59% 23%, 66% 24%, 73% 25%, 78% 28%, 83% 32%, 88% 36%, 93% 40%, 97% 44%, 96% 50%, 90% 54%, 83% 57%, 75% 59%, 67% 57%, 63% 61%, 65% 68%, 68% 74%, 70% 80%, 73% 86%, 71% 93%, 65% 97%, 59% 99%, 51% 99%, 44% 99%, 38% 96%, 38% 89%, 41% 84%, 41% 77%, 42% 70%, 43% 63%, 36% 60%, 29% 59%, 22% 58%, 16% 57%, 10% 56%, 5% 53%);
+}
+.onion4 {
+    height: 20px;
+    width: 10px;
+    background-color: #CCCCCE;
+    position: absolute;
+    top:300px;
+    left:290px;
+    border-radius: 0% 0% 100% 0% / 0% 0% 100% 0%;
+}
+.olive4{
+    height: 10px;
+    width: 10px;
+    background-color: #626262;
+    position: absolute;
+    top:230px;
+    left:210px;
+    z-index: 4;
+    border-radius: 100% 32% 100% 32% / 100% 32% 100% 32%;
+}
+.pepperoni5 {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top:240px;
+    left:173px; 
+    background-color: #BB261B;
+    border-radius: 85% 34% 100% 42% / 85% 34% 100% 42%;
+}
+.mushroom5 {
+    width: 30px;
+    height: 50px;
+    background-color: #C1A88C;
+    position: absolute;
+    top:260px;
+    left:150px;
+    transform: rotate(-30deg);
+    clip-path: polygon(1% 49%, 5% 43%, 10% 38%, 15% 34%, 21% 31%, 27% 28%, 33% 26%, 40% 24%, 46% 23%, 53% 22%, 59% 23%, 66% 24%, 73% 25%, 78% 28%, 83% 32%, 88% 36%, 93% 40%, 97% 44%, 96% 50%, 90% 54%, 83% 57%, 75% 59%, 67% 57%, 63% 61%, 65% 68%, 68% 74%, 70% 80%, 73% 86%, 71% 93%, 65% 97%, 59% 99%, 51% 99%, 44% 99%, 38% 96%, 38% 89%, 41% 84%, 41% 77%, 42% 70%, 43% 63%, 36% 60%, 29% 59%, 22% 58%, 16% 57%, 10% 56%, 5% 53%);
+}
+.olive5{
+    height: 10px;
+    width: 10px;
+    background-color: #626262;
+    position: absolute;
+    top:310px;
+    left:150px;
+    z-index: 4;
+    border-radius: 100% 32% 100% 32% / 100% 32% 100% 32%;
+}
+.capsicum5 {
+    width: 70px;
+    height: 50px;
+    background-color: #449228;
+    position: absolute;
+    top:310px;
+    left:110px;
+    clip-path: polygon(0% 58%, 7% 54%, 14% 51%, 20% 48%, 27% 46%, 33% 50%, 40% 53%, 46% 56%, 54% 54%, 60% 50%, 66% 47%, 73% 47%, 80% 50%, 86% 53%, 92% 55%, 97% 60%, 96% 66%, 91% 68%, 85% 66%, 79% 64%, 72% 62%, 65% 65%, 60% 68%, 54% 71%, 47% 71%, 40% 69%, 34% 67%, 27% 65%, 20% 65%, 14% 66%, 8% 67%, 2% 66%, 1% 62%);
+}
+.capsicum6 {
+    width: 70px;
+    height: 50px;
+    background-color: #449228;
+    position: absolute;
+    top:250px;
+    left:70px;
+    transform: rotate(-10deg);
+    clip-path: polygon(0% 58%, 7% 54%, 14% 51%, 20% 48%, 27% 46%, 33% 50%, 40% 53%, 46% 56%, 54% 54%, 60% 50%, 66% 47%, 73% 47%, 80% 50%, 86% 53%, 92% 55%, 97% 60%, 96% 66%, 91% 68%, 85% 66%, 79% 64%, 72% 62%, 65% 65%, 60% 68%, 54% 71%, 47% 71%, 40% 69%, 34% 67%, 27% 65%, 20% 65%, 14% 66%, 8% 67%, 2% 66%, 1% 62%);
+}
+.capsicum7 {
+    width: 40px;
+    height: 50px;
+    background-color: #449228;
+    position: absolute;
+    top:230px;
+    left:110px;
+    transform: rotate(-120deg);
+    clip-path: polygon(0% 58%, 7% 54%, 14% 51%, 20% 48%, 27% 46%, 33% 50%, 40% 53%, 46% 56%, 54% 54%, 60% 50%, 66% 47%, 73% 47%, 80% 50%, 86% 53%, 92% 55%, 97% 60%, 96% 66%, 91% 68%, 85% 66%, 79% 64%, 72% 62%, 65% 65%, 60% 68%, 54% 71%, 47% 71%, 40% 69%, 34% 67%, 27% 65%, 20% 65%, 14% 66%, 8% 67%, 2% 66%, 1% 62%);
+}
+.tomato6{
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top:240px;
+    left: 70px;
+    background-color: #D72E20;
+    transform: rotate(150deg);
+    border-radius: 60% 60% 20% 20% / 100% 100% 20% 20%;
+}
+.tomato6::before {
+    content: '';
+    position: absolute;
+    bottom:10%;
+    left: 10%;
+    width:15px;
+    height: 15px;
+    transform: rotate(-25deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.tomato6::after {
+    content: '';
+    position: absolute;
+    bottom:20%;
+    right: 10%;
+    width:15px;
+    height: 15px;
+    transform: rotate(25deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.mushroom6 {
+    width: 30px;
+    height: 40px;
+    background-color: #C1A88C;
+    position: absolute;
+    top:210px;
+    left:140px;
+    transform: rotate(30deg);
+    clip-path: polygon(1% 49%, 5% 43%, 10% 38%, 15% 34%, 21% 31%, 27% 28%, 33% 26%, 40% 24%, 46% 23%, 53% 22%, 59% 23%, 66% 24%, 73% 25%, 78% 28%, 83% 32%, 88% 36%, 93% 40%, 97% 44%, 96% 50%, 90% 54%, 83% 57%, 75% 59%, 67% 57%, 63% 61%, 65% 68%, 68% 74%, 70% 80%, 73% 86%, 71% 93%, 65% 97%, 59% 99%, 51% 99%, 44% 99%, 38% 96%, 38% 89%, 41% 84%, 41% 77%, 42% 70%, 43% 63%, 36% 60%, 29% 59%, 22% 58%, 16% 57%, 10% 56%, 5% 53%);
+}
+.tomato7{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top:160px;
+    left: 60px;
+    background-color: #D72E20;
+}
+.seed1 {
+    position: absolute;
+    bottom:60%;
+    left: 10%;
+    width:15px;
+    height: 15px;
+    transform: rotate(-45deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.seed2 {
+    position: absolute;
+    bottom:60%;
+    left: 60%;
+    width:15px;
+    height: 15px;
+    transform: rotate(45deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.seed3 {
+    position: absolute;
+    bottom:10%;
+    left: 60%;
+    width:15px;
+    height: 15px;
+    transform: rotate(135deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.seed4 {
+    position: absolute;
+    bottom:10%;
+    left: 10%;
+    width:15px;
+    height: 15px;
+    transform: rotate(-135deg);
+    background-color: #ED7F33;
+    clip-path: polygon(12% 100%, 9% 93%, 6% 87%, 4% 80%, 5% 73%, 6% 66%, 9% 60%, 15% 57%, 23% 54%, 29% 53%, 36% 53%, 42% 53%, 49% 52%, 55% 52%, 61% 52%, 68% 53%, 75% 53%, 82% 54%, 88% 55%, 92% 59%, 96% 63%, 97% 69%, 97% 75%, 95% 81%, 92% 87%, 91% 93%, 88% 98%, 84% 94%, 83% 87%, 81% 80%, 76% 76%, 71% 75%, 65% 75%, 59% 76%, 52% 76%, 46% 77%, 40% 77%, 33% 78%, 27% 79%, 24% 84%, 20% 88%, 18% 93%, 16% 97%);
+}
+.onion7 {
+    height: 20px;
+    width: 10px;
+    background-color: #CCCCCE;
+    position: absolute;
+    top:130px;
+    left:80px;
+    border-radius: 0% 0% 100% 0% / 0% 0% 100% 0%;
+}
+.capsicum8 {
+    width: 40px;
+    height: 50px;
+    background-color: #449228;
+    position: absolute;
+    top:150px;
+    left:110px;
+    transform: rotate(-120deg);
+    clip-path: polygon(0% 58%, 7% 54%, 14% 51%, 20% 48%, 27% 46%, 33% 50%, 40% 53%, 46% 56%, 54% 54%, 60% 50%, 66% 47%, 73% 47%, 80% 50%, 86% 53%, 92% 55%, 97% 60%, 96% 66%, 91% 68%, 85% 66%, 79% 64%, 72% 62%, 65% 65%, 60% 68%, 54% 71%, 47% 71%, 40% 69%, 34% 67%, 27% 65%, 20% 65%, 14% 66%, 8% 67%, 2% 66%, 1% 62%);
+}
+.olive7{
+    height: 10px;
+    width: 10px;
+    background-color: #626262;
+    position: absolute;
+    top:190px;
+    left:170px;
+    z-index: 4;
+    border-radius: 100% 32% 100% 32% / 100% 32% 100% 32%;
+}
+.capsicum9 {
+    width: 60px;
+    height: 50px;
+    background-color: #449228;
+    position: absolute;
+    top:90px;
+    left:100px;
+    transform: rotate(-120deg);
+    clip-path: polygon(0% 58%, 7% 54%, 14% 51%, 20% 48%, 27% 46%, 33% 50%, 40% 53%, 46% 56%, 54% 54%, 60% 50%, 66% 47%, 73% 47%, 80% 50%, 86% 53%, 92% 55%, 97% 60%, 96% 66%, 91% 68%, 85% 66%, 79% 64%, 72% 62%, 65% 65%, 60% 68%, 54% 71%, 47% 71%, 40% 69%, 34% 67%, 27% 65%, 20% 65%, 14% 66%, 8% 67%, 2% 66%, 1% 62%);
+}
+.onion8 {
+    height: 50px;
+    width: 10px;
+    background-color: #CCCCCE;
+    position: absolute;
+    top:70px;
+    left:170px;
+    border-radius: 0% 0% 100% 0% / 0% 0% 100% 0%;
+}
+.mushroom8 {
+    width: 30px;
+    height: 40px;
+    background-color: #C1A88C;
+    position: absolute;
+    top:130px;
+    left:150px;
+    transform: rotate(180deg);
+    clip-path: polygon(1% 49%, 5% 43%, 10% 38%, 15% 34%, 21% 31%, 27% 28%, 33% 26%, 40% 24%, 46% 23%, 53% 22%, 59% 23%, 66% 24%, 73% 25%, 78% 28%, 83% 32%, 88% 36%, 93% 40%, 97% 44%, 96% 50%, 90% 54%, 83% 57%, 75% 59%, 67% 57%, 63% 61%, 65% 68%, 68% 74%, 70% 80%, 73% 86%, 71% 93%, 65% 97%, 59% 99%, 51% 99%, 44% 99%, 38% 96%, 38% 89%, 41% 84%, 41% 77%, 42% 70%, 43% 63%, 36% 60%, 29% 59%, 22% 58%, 16% 57%, 10% 56%, 5% 53%);
+}
+.olive8{
+    height: 10px;
+    width: 10px;
+    background-color: #626262;
+    position: absolute;
+    top:170px;
+    left:180px;
+    z-index: 4;
+    border-radius: 100% 32% 100% 32% / 100% 32% 100% 32%;
+}
